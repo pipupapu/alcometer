@@ -12,9 +12,9 @@ function App() {
   const calculate = () => {
     let promilles = 0
     if (gender === "0") {
-        promilles = (((bottles * 0.33)*8*4.5)-((weight/10)*time))/(weight*0.7)
+        promilles = (((bottles * 0.33) * 8 * 4.5)-((weight/10)*time))/(weight*0.7)
     } else {
-        promilles = (((bottles * 0.33)*8*4.5)-((weight/10)*time))/(weight*0.6)
+        promilles = (((bottles * 0.33) * 8 * 4.5)-((weight/10)*time))/(weight*0.6)
     }
     setResult(promilles)
     }
