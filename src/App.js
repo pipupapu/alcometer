@@ -22,7 +22,7 @@ function App() {
   return (
     <div id="container">
       <div>
-      <h2> Beercometer </h2>
+      <h2> Beerometer </h2>
       </div>
       <div>
       <label> Bottles </label>
